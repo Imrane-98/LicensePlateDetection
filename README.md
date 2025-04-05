@@ -28,6 +28,6 @@
 ### Installation & Setup
 ```sh
 git clone https://github.com/Imrane-98/LicensePlateDetection.git
-cd LicensePlateOCR
+cd LicensePlateDetection
 pip install -r requirements.txt
 ANPRWithPython.ipynb
