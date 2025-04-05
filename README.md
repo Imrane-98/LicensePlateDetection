@@ -1,24 +1,33 @@
-# 🚗 License Plate OCR
+<img src="output.jpg" width="600" alt="License Plate OCR">
 
-A Python-based license plate recognition system that detects and extracts license plates from vehicle images using OpenCV and EasyOCR. It combines image preprocessing, contour detection, and optical character recognition to accurately identify plate numbers from photos.
+# LicensePlateOCR
 
----
+**LicensePlateOCR** is a Python-based license plate recognition system that detects and extracts license plates from vehicle images using **OpenCV**, **EasyOCR**, and other powerful libraries. Designed for high accuracy and robust performance, this project leverages advanced image processing techniques to reliably isolate and read license plates.
 
-## 📸 Demo
+## Features
+- Detects and isolates vehicle license plates using OpenCV
+- Applies noise reduction and edge detection for enhanced image processing
+- Identifies rectangular plate regions through contour analysis
+- Extracts text from license plates using EasyOCR
+- Visualizes results with Matplotlib
 
-![License Plate Detection](output.jpg)  
+## Tech Stack
+- **Python** for core programming
+- **OpenCV** for image processing and computer vision
+- **EasyOCR** for optical character recognition
+- **imutils** for simplified image manipulation
+- **NumPy** for numerical operations
+- **Matplotlib** for data visualization
 
----
+## Getting Started
 
-## 🛠️ Features
+### Prerequisites
+- **Python 3.6+**
+- **pip** package manager
 
-- 🔍 Detects and isolates vehicle license plates using OpenCV  
-- ✨ Preprocesses images with noise reduction and edge detection  
-- 🔲 Identifies rectangular plate areas via contour analysis  
-- 🔡 Extracts text from license plates using EasyOCR  
-- 💯 High accuracy on clean vehicle images  
-
----
-
-## 📂 Project Structure
-
+### Installation & Setup
+```sh
+git clone https://github.com/Imrane-98/LicensePlateDetection.git
+cd LicensePlateOCR
+pip install -r requirements.txt
+ANPRWithPython.ipynb
