@@ -7,7 +7,6 @@ A Python-based license plate recognition system that detects and extracts licens
 ## 📸 Demo
 
 ![License Plate Detection](output.jpg)  
-*Replace with your own image/GIF or remove this section.*
 
 ---
 
